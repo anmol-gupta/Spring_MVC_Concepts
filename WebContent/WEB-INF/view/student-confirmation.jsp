@@ -8,5 +8,9 @@
 </head>
 <body>
 <h4>The student name is : ${student.firstName } ${student.lastName }</h4>
+<br>
+<h4>Your country is: ${ student.country }</h4>
+<h4>Favorite prog language: ${ student.favLang }</h4>
+<h4>Favorite operating system: ${ student.os }</h4>
 </body>
 </html>
