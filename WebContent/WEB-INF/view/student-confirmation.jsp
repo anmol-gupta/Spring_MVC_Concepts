@@ -7,10 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Hello Nerds</h1>
-<hr>
-<h4><a href="insertName">Show Form</a></h4>
-<br>
-<h4><a href="student/showForm">Show Student Form</a></h4>
+<h4>The student name is : ${student.firstName } ${student.lastName }</h4>
 </body>
 </html>
