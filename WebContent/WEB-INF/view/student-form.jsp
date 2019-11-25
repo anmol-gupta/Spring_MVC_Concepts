@@ -13,6 +13,7 @@
 First Name: <form:input type="text" path="firstName"></form:input>
 <br>
 Last Name: <form:input type="text" path="lastName"></form:input>
+
 <br>
 <form:select path="country">
 <form:options items="${student.countryOptions}"/>
@@ -20,8 +21,7 @@ Last Name: <form:input type="text" path="lastName"></form:input>
 <br>
 <h4>Favorite Programming Languages : </h4>
 <form:radiobuttons path="favLang" items="${student.favoriteLanguageOptions}"  />
-<h4>Operating system:</h4>
-<form:checkbox path="os" items="${student.osOptions}"  />
+
 <br><br>
 <!-- here by submit spring will call the student.setFirstName() and student.setLastName() -->
 <input type="submit"/>
